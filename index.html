@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>medir</title>
+   <style>
+      body {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         height: 100vh;
+         margin: 0;
+         background-color: #252525;
+      }
+
+      .vertical {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         text-align: center;
+      }
+
+      .start {
+         width: 400px;
+         height: 400px;
+         border-radius: 1000px;
+         border: 5px solid #5e5c5c;
+         background-color: #6cc178;
+         color: #3d423e;
+         font-weight: bolder;
+         font-size: 80px;
+         margin: 0 auto;
+         line-height: 1.5;
+      }
+
+      .start:active {
+         box-shadow: 0px 10px 6px rgba(0, 128, 0, 0.5);
+         border: 10px solid #959595;
+      }
+
+      .crono {
+         background-color: #6cc178;
+         font-size: 36px;
+         margin-top: 20px;
+         padding: 20px;
+         width: 150px;
+         color: #3d423e;
+         border-radius: 20px;
+         border: 2px solid #3d423e;
+         font-weight: 600;
+         font-family: arial;
+      }
+   </style>
+</head>
+
+<body>
+   <section class="vertical">
+      <button class="start" id="start" onclick="start()">
+         START
+      </button>
+      <div id="crono" class="crono">00:00:00</div>
+   </section>
+   <script src="script.js"></script>
+</body>
+
+</html>

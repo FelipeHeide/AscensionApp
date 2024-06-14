@@ -1,1 +1,3 @@
 # AscensionApp
+
+This repository contains a physics simulation application that calculates various kinematic parameters related to an object's motion. The application utilizes equations from classical mechanics to determine the time, height, speed, impact speed, and acceleration of an object under the influence of gravity on a specified planet. The calculated values are displayed in a user-friendly interface, providing a visual representation of the object's trajectory and its associated kinematic properties.
